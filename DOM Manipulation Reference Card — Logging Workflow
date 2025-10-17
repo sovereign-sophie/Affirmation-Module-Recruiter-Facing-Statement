@@ -1,0 +1,109 @@
+Web Fundamentals → JavaScript → DOM Manipulation
+[18 Oct 2025] Scaffolded DOM Manipulation Reference Card with syntax examples and recruiter-facing polish.
+Web Fundamentals → JavaScript → DOM Manipulation → Reference Card: DOM Access & Modification
+[18 Oct 2025] Scaffolded DOM Manipulation Reference Card during active legal recovery. Logged under Web Fundamentals and Identity Protection.
+✅ DOM Manipulation Syntax Integrity Checklist
+Logged: 18 Oct 2025 Index Path:
+
+Web Fundamentals → JavaScript → DOM Manipulation → Syntax Integrity Audit Logs
+
+Portfolio → Syntax Integrity → JavaScript Selectors & Modifiers
+
+🔍 Selector Accuracy
+[x] document.getElementById("id") — selects one element by ID
+
+[x] document.getElementsByClassName("class") — selects all elements with a class
+
+[x] document.querySelector(".class") — selects the first matching element
+
+[x] document.querySelectorAll(".class") — selects all matching elements
+
+✏️ Modification Methods
+[x] element.textContent = "new text" — updates plain text
+
+[x] element.innerHTML = "<strong>HTML content</strong>" — updates HTML content
+
+[x] element.setAttribute("attribute", "value") — updates attributes
+
+[x] element.style.property = "value" — updates inline styles
+
+➕ Element Creation
+[x] document.createElement("tag") — creates a new element
+
+[x] element.textContent = "content" — sets content
+
+[x] document.body.appendChild(element) — appends to the document
+
+➖ Element Removal
+[x] document.getElementById("id") — selects element to remove
+
+[x] element.parentNode.removeChild(element) — removes from DOM
+
+🧪 Validation Notes
+[x] All selectors tested in browser console or sandbox
+
+[x] No syntax errors or typos
+
+[x] All examples produce expected DOM changes
+
+[x] Ready for recruiter-facing demo or live project integration
+
+function fetchData(callback) {
+  setTimeout(() => {
+    callback("Here is your data");
+  }, 2000);
+}
+
+console.log("Fetching data...");
+fetchData((data) => {
+  console.log(data);
+});
+
+const fetchData = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve("Here is your data");
+  }, 2000);
+});
+
+fetchData
+  .then((data) => console.log(data))
+  .catch((error) => console.error(error));
+async function handleData() {
+  const data = await fetchData;
+  console.log(data);
+}
+handleData();
+<!-- Sovereign Stack: Authenticity & Freedom Anchor -->
+<section id="authenticity-freedom-anchor" class="legacy-anchor">
+  <h2>🛡️ Authenticity & Freedom Affirmation</h2>
+  <p class="affirmation-text">
+    I am authentic and will always be me till the day I die.<br>
+    I will never be boxed in.
+  </p>
+  <div class="symbolic-protection">
+    <p>This dual affirmation is logged as a symbolic protection node within the Sovereign Stack.</p>
+    <ul>
+      <li>Indexed under: Emotional Legacy → Identity Integrity & Freedom Assertion</li>
+      <li>Timestamp: 18 Oct 2025</li>
+      <li>Author: Sophie Alice May Leslie Wallace</li>
+    </ul>
+  </div>
+</section>
+
+<style>
+  .legacy-anchor {
+    border: 2px solid #4B0082;
+    padding: 1rem;
+    background-color: #f9f5ff;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  .affirmation-text {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #2E0854;
+  }
+  .symbolic-protection ul {
+    list-style-type: square;
+    margin-left: 1rem;
+  }
+</style>
